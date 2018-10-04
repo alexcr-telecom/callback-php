@@ -4,7 +4,7 @@ var str = $(this).serialize();
 var delay = 3000;
 $.ajax({
 type: "POST",
-url: "http://95.179.182.249/a2billing/cback/callback.php",
+url: "http://192.168.1.2/callback/callback.php",
 data: str,
 success: function(msg) {
 if(msg == 'OK') {
