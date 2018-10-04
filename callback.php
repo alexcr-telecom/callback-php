@@ -2,12 +2,12 @@
 $strhost = "127.0.0.1";
 $strport = "5038";
 $timeout = "10";
-//$num = $_POST['phone'];
-//$name = $_POST['name'];
-//$cid = $_POST['user'];
-$num = $_GET['phone'];
-$callerid = $_GET['callerid'];
-$user = $_GET['user'];
+$num = $_POST['phone'];
+$callerid = $_POST['callerid'];
+$user = $_POST['user'];
+//$num = $_GET['phone'];
+//$callerid = $_GET['callerid'];
+//$user = $_GET['user'];
 $c="a2billing-callback";
 $p="1";
 $errno=0 ;
@@ -16,9 +16,9 @@ $sconn = fsockopen($strhost, $strport, $errno, $errstr, $timeout) or die("Connec
 if (!$sconn) { echo "$errstr ($errno)<br>\n"; } 
 else {
 echo 'OK';
-echo 'num-'.$num;
-echo 'name-'.$name;
-echo 'cid-'.$cid;
+//echo 'num-'.$num;
+//echo 'name-'.$name;
+//echo 'cid-'.$cid;
 
 fputs($sconn, "Action: login\r\n");
 fputs($sconn, "Username: callback\r\n");
