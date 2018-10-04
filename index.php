@@ -144,8 +144,8 @@ fieldset {
   color: #888;
 }
 </style>
-<script type="text/javascript" src="http://95.179.182.249/a2billing/cback/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="http://95.179.182.249/a2billing/cback/callback.js"></script>
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="callback.js"></script>
 <div class="container">  
   <form id="contact" action="">
     <h3>Call now?</h3>
