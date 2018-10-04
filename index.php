@@ -148,20 +148,20 @@ fieldset {
 <script type="text/javascript" src="http://95.179.182.249/a2billing/cback/callback.js"></script>
 <div class="container">  
   <form id="contact" action="">
-    <h3>Давайте поговорим?</h3>
-    <h4>Перезвоним через 10 секунд.</h4>
+    <h3>Call now?</h3>
+    <h4>Wait and call on SIP softphone</h4>
 	<div id="note"></div>
     <fieldset>
-      <input placeholder="CALLERID" type="text" name="name">
+      <input placeholder="CALLERID" type="text" name="callerid">
     </fieldset>
     <fieldset>
       <input id="phone" placeholder="Phone number to call" type="text" name="phone">
     </fieldset>
     <fieldset>
-      <input id="user" placeholder="User 89123456789" type="text" name="user">
+      <input id="user" placeholder="User - sip account " type="text" name="user">
     </fieldset>
     <fieldset>
-      <button type="submit" name="submit" id="contact-submit">Жду звонка!</button>
+      <button type="submit" name="submit" id="contact-submit">CALL NOW!</button>
     </fieldset>
   </form>
 </div>
